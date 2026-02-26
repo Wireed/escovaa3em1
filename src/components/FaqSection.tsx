@@ -9,7 +9,7 @@ import {
 const faqs = [
   {
     q: "Como funciona o pagamento na entrega?",
-    a: "É simples e seguro: você faz o pedido pelo site, recebe o produto em casa pelo correio ou transportadora, e só paga quando o entregador chegar. Você pode pagar com PIX, dinheiro, cartão de débito ou crédito em até 12x. Sem risco nenhum — se não gostar, é só recusar a entrega.",
+    a: "É simples e seguro: você faz o pedido pelo site, recebe o produto em casa pelo correio ou transportadora, e só paga quando o entregador chegar. Você pode pagar com PIX, dinheiro, cartão de débito ou crédito em até 12x. Sem risco nenhum!",
   },
   {
     q: "É seguro comprar? Não é golpe?",
