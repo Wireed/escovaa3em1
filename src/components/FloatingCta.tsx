@@ -1,7 +1,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect } from "react";
 
-const CHECKOUT_URL = "https://entrega.logzz.com.br/pay/mem768w3l/dzugh-1-unidade-escova-alisadora";
+const CHECKOUT_URL = "https://entrega.logzz.com.br/pay/memnz6gl0/1-unidade-escova-alisadora";
 
 const FloatingCta = () => {
   const [show, setShow] = useState(false);
@@ -27,9 +27,9 @@ const FloatingCta = () => {
             href={CHECKOUT_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="block gradient-primary text-primary-foreground font-heading font-bold text-base py-4 rounded-xl text-center animate-pulse-glow uppercase tracking-wide"
+            className="block gradient-primary text-primary-foreground font-heading font-bold text-sm py-4 rounded-xl text-center animate-pulse-glow uppercase tracking-wide"
           >
-            🛒 Comprar por R$ 99,99
+            🛒 QUERO PAGAR NA ENTREGA — R$ 139,99
           </a>
         </motion.div>
       )}

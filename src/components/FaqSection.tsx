@@ -8,6 +8,14 @@ import {
 
 const faqs = [
   {
+    q: "Como funciona o pagamento na entrega?",
+    a: "É simples e seguro: você faz o pedido pelo site, recebe o produto em casa pelo correio ou transportadora, e só paga quando o entregador chegar. Você pode pagar com PIX, dinheiro, cartão de débito ou crédito em até 12x. Sem risco nenhum — se não gostar, é só recusar a entrega.",
+  },
+  {
+    q: "É seguro comprar? Não é golpe?",
+    a: "Totalmente seguro! Você NÃO paga nada adiantado. O pagamento é feito somente na hora que o produto chega na sua casa. Você confere tudo antes de pagar. Além disso, oferecemos garantia de 30 dias — se não ficar satisfeita, devolvemos seu dinheiro.",
+  },
+  {
     q: "A escova pode ser usada em cabelos molhados?",
     a: "Não. O ideal é usá-la em cabelos secos para um melhor resultado.",
   },

@@ -2,14 +2,27 @@ import { motion } from "framer-motion";
 import productRound from "@/assets/product-round.png";
 import deliveryIcon from "@/assets/delivery-icon.png";
 
-const CHECKOUT_URL = "https://entrega.logzz.com.br/pay/mem768w3l/dzugh-1-unidade-escova-alisadora";
-const WHATSAPP_URL = "https://wa.me/5511959319499";
+const CHECKOUT_URL = "https://entrega.logzz.com.br/pay/memnz6gl0/1-unidade-escova-alisadora";
+const WHATSAPP_URL = "https://wa.me/5537998272175?text=Quero%20saber%20mais%20sobre%20a%20Escova%20Alisadora%203%20em%201%20e%20como%20funciona%20o%20pagamento%20na%20entrega!";
 
 const OfferSection = () => {
   return (
     <section className="py-16 sm:py-24 relative">
       <div className="section-divider absolute top-0 left-0 right-0" />
       <div className="container">
+        {/* Pain point banner */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="text-center mb-10"
+        >
+          <p className="text-muted-foreground text-sm sm:text-base max-w-2xl mx-auto">
+            💸 Você gasta <strong className="text-foreground">R$ 80 a R$ 150 por semana</strong> no salão? Isso é mais de <strong className="text-foreground">R$ 400/mês</strong>! 
+            Com a Escova Alisadora, você economiza desde a primeira semana — e o investimento se paga sozinho.
+          </p>
+        </motion.div>
+
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
@@ -49,12 +62,12 @@ const OfferSection = () => {
               </h2>
 
               <div className="space-y-1">
-                <p className="text-muted-foreground line-through text-lg">De R$ 199,90</p>
+                <p className="text-muted-foreground line-through text-lg">De R$ 297,00</p>
                 <p className="font-heading font-black text-4xl sm:text-5xl lg:text-6xl text-gradient-accent">
-                  R$ 99,99
+                  R$ 139,99
                 </p>
                 <p className="text-foreground font-heading font-semibold text-lg">
-                  OU 12X DE R$ 8,33
+                  OU 12X DE R$ 11,67
                 </p>
               </div>
 
@@ -63,10 +76,10 @@ const OfferSection = () => {
                   <img src={deliveryIcon} alt="Entrega rápida" className="w-12" />
                   <div className="text-left">
                     <p className="font-heading font-bold text-foreground text-sm sm:text-base">
-                      COMPRE HOJE E RECEBA AMANHÃ
+                      PAGUE SOMENTE NA ENTREGA
                     </p>
                     <p className="text-muted-foreground text-xs sm:text-sm">
-                      Pague na entrega: PIX, Dinheiro, Débito ou Crédito 12x
+                      Receba em casa e pague ao entregador: PIX, Dinheiro, Débito ou Crédito 12x
                     </p>
                   </div>
                 </div>
@@ -78,9 +91,9 @@ const OfferSection = () => {
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.97 }}
-                className="block gradient-primary text-primary-foreground font-heading font-bold text-lg sm:text-xl px-8 py-5 rounded-xl glow-primary animate-pulse-glow uppercase tracking-wide text-center"
+                className="block gradient-primary text-primary-foreground font-heading font-bold text-base sm:text-xl px-8 py-5 rounded-xl glow-primary animate-pulse-glow uppercase tracking-wide text-center"
               >
-                🛒 CLIQUE AQUI E ADQUIRA AGORA
+                🛒 QUERO MINHA ESCOVA COM PAGAMENTO NA ENTREGA
               </motion.a>
 
               <div className="flex items-center justify-center gap-4 text-xs text-muted-foreground">
@@ -88,6 +101,10 @@ const OfferSection = () => {
                 <span>🛡️ Garantia 30 Dias</span>
                 <span>📦 Frete Grátis</span>
               </div>
+
+              <p className="text-xs text-muted-foreground">
+                Sem risco: você confere o produto na hora e só paga se aprovar.
+              </p>
 
               {/* WhatsApp */}
               <a
