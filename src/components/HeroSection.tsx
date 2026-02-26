@@ -59,13 +59,13 @@ const HeroSection = () => {
             </div>
 
             <div className="space-y-3">
-              <div className="flex flex-col sm:flex-row items-center gap-3">
-                <span className="text-muted-foreground line-through text-lg">R$ 297,00</span>
-                
-                <span className="bg-success text-primary-foreground font-heading font-bold text-xs px-3 py-1 rounded-full">
-                  -53% OFF
-                </span>
-              </div>
+              
+
+
+
+
+
+
               <p className="text-muted-foreground text-sm">ou 12x de R$ 14,30 sem juros</p>
 
               <motion.a
