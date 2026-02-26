@@ -25,7 +25,7 @@ const BenefitsSection = () => {
             <span className="text-gradient-primary">Escova Alisadora?</span>
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto">
-            Descubra os benefícios que estão mudando a rotina de milhares de mulheres
+            Chega de gastar fortunas no salão ou perder horas se arrumando. Tenha cabelo de salão todos os dias, em casa, em 2 minutos.
           </p>
         </motion.div>
 
