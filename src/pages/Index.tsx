@@ -2,6 +2,7 @@ import UrgencyBanner from "@/components/UrgencyBanner";
 import HeroSection from "@/components/HeroSection";
 import BenefitsSection from "@/components/BenefitsSection";
 import VideoSection from "@/components/VideoSection";
+import HeroOffer from "@/components/HeroOffer";
 import HairTypeSection from "@/components/HairTypeSection";
 import HowToUseSection from "@/components/HowToUseSection";
 import FaqSection from "@/components/FaqSection";
@@ -15,6 +16,7 @@ const Index = () => {
       <HeroSection />
       <BenefitsSection />
       <VideoSection />
+      <HeroOffer />
       <HairTypeSection />
       <HowToUseSection />
       <FaqSection />
