@@ -67,7 +67,7 @@ const OfferSection = () => {
                   R$ 139,99
                 </p>
                 <p className="text-foreground font-heading font-semibold text-lg">
-                  OU 12X DE R$ 11,67
+                  OU 12X DE R$ 14,30
                 </p>
               </div>
 
