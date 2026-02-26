@@ -66,7 +66,7 @@ const HeroSection = () => {
 
 
 
-              <p className="text-muted-foreground text-sm">ou 12x de R$ 14,30 sem juros</p>
+              
 
               
 
