@@ -7,22 +7,19 @@ const WHATSAPP_URL = "https://wa.me/5537998272175?text=Quero%20saber%20mais%20so
 
 const OfferSection = () => {
   return (
-    <section id="oferta" className="py-16 sm:py-24 relative scroll-mt-8">
+    <section className="py-16 sm:py-24 relative">
       <div className="section-divider absolute top-0 left-0 right-0" />
       <div className="container">
-        {/* Price anchoring */}
+        {/* Pain point banner */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center mb-10 space-y-3"
+          className="text-center mb-10"
         >
           <p className="text-muted-foreground text-sm sm:text-base max-w-2xl mx-auto">
-            💸 Um alisamento profissional custa <strong className="text-foreground">R$ 150 a R$ 200 por sessão</strong>. 
-            Em apenas um mês, você já gasta mais de <strong className="text-foreground">R$ 400</strong> no salão.
-          </p>
-          <p className="font-heading font-bold text-foreground text-base sm:text-lg max-w-2xl mx-auto">
-            E se você pudesse ter o mesmo resultado todos os dias, pagando <span className="text-gradient-primary">uma única vez</span>?
+            💸 Você gasta <strong className="text-foreground">R$ 80 a R$ 150 por semana</strong> no salão? Isso é mais de <strong className="text-foreground">R$ 400/mês</strong>! 
+            Com a Escova Alisadora, você economiza desde a primeira semana — e o investimento se paga sozinho.
           </p>
         </motion.div>
 
