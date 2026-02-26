@@ -13,12 +13,12 @@ const Index = () => {
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
       <UrgencyBanner />
       <HeroSection />
-      <BenefitsSection />
       <VideoSection />
       <HairTypeSection />
+      <BenefitsSection />
       <HowToUseSection />
-      <FaqSection />
       <OfferSection />
+      <FaqSection />
       <FloatingCta />
 
       {/* Footer */}
