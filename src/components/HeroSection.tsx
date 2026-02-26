@@ -13,8 +13,8 @@ const HeroSection = () => {
             initial={{ opacity: 0, x: -40 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.7 }}
-            className="text-center lg:text-left order-2 lg:order-1"
-          >
+            className="text-center lg:text-left order-2 lg:order-1">
+
             <div className="inline-block gradient-primary px-4 py-1.5 rounded-full mb-4">
               <span className="text-primary-foreground font-heading font-bold text-xs sm:text-sm tracking-wider uppercase">
                 ⚡ Oferta Exclusiva — Pague na Entrega
@@ -27,7 +27,7 @@ const HeroSection = () => {
             </h1>
 
             <p className="text-lg sm:text-xl font-heading font-semibold text-foreground mb-2">
-              Alisa, Seca e Hidrata — Bivolt
+              Alisa, Seca e Hidrata! 
             </p>
 
             <p className="text-muted-foreground text-sm sm:text-base mb-3 max-w-lg mx-auto lg:mx-0">
@@ -41,21 +41,21 @@ const HeroSection = () => {
 
             <div className="space-y-2 mb-8 text-left max-w-md mx-auto lg:mx-0">
               {[
-                "5 Níveis de Temperatura",
-                "Aquecimento Rápido em 30s",
-                "Anti Frizz + Brilho Intenso",
-              ].map((item, i) => (
-                <motion.div
-                  key={i}
-                  initial={{ opacity: 0, x: -20 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: 0.3 + i * 0.15 }}
-                  className="flex items-center gap-3"
-                >
+              "5 Níveis de Temperatura",
+              "Aquecimento Rápido em 30s",
+              "Anti Frizz + Brilho Intenso"].
+              map((item, i) =>
+              <motion.div
+                key={i}
+                initial={{ opacity: 0, x: -20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 0.3 + i * 0.15 }}
+                className="flex items-center gap-3">
+
                   <span className="w-6 h-6 rounded-full gradient-primary flex items-center justify-center text-primary-foreground text-xs flex-shrink-0">✓</span>
                   <span className="text-foreground font-body font-medium text-sm sm:text-base">{item}</span>
                 </motion.div>
-              ))}
+              )}
             </div>
 
             <div className="space-y-3">
@@ -74,8 +74,8 @@ const HeroSection = () => {
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.97 }}
-                className="inline-block gradient-primary text-primary-foreground font-heading font-bold text-base sm:text-lg px-8 sm:px-12 py-4 sm:py-5 rounded-xl glow-primary animate-pulse-glow uppercase tracking-wide w-full sm:w-auto text-center"
-              >
+                className="inline-block gradient-primary text-primary-foreground font-heading font-bold text-base sm:text-lg px-8 sm:px-12 py-4 sm:py-5 rounded-xl glow-primary animate-pulse-glow uppercase tracking-wide w-full sm:w-auto text-center">
+
                 🛒 QUERO PAGAR NA ENTREGA
               </motion.a>
 
@@ -90,21 +90,21 @@ const HeroSection = () => {
             initial={{ opacity: 0, x: 40 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="flex justify-center order-1 lg:order-2"
-          >
+            className="flex justify-center order-1 lg:order-2">
+
             <div className="relative">
               <div className="absolute inset-0 gradient-primary rounded-full blur-3xl opacity-20 scale-75" />
               <img
                 src={productHero}
                 alt="Escova Alisadora 3 em 1"
-                className="relative z-10 w-64 sm:w-80 lg:w-96 animate-float drop-shadow-2xl"
-              />
+                className="relative z-10 w-64 sm:w-80 lg:w-96 animate-float drop-shadow-2xl" />
+
               <motion.div
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 0.8 }}
-                className="absolute -bottom-2 -right-2 sm:bottom-4 sm:right-0 bg-card border border-border rounded-xl p-3 shadow-xl z-20"
-              >
+                className="absolute -bottom-2 -right-2 sm:bottom-4 sm:right-0 bg-card border border-border rounded-xl p-3 shadow-xl z-20">
+
                 <p className="text-xs font-heading font-bold text-primary">⭐ 4.9/5</p>
                 <p className="text-[10px] text-muted-foreground">+2.500 vendidos</p>
               </motion.div>
@@ -112,8 +112,8 @@ const HeroSection = () => {
           </motion.div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default HeroSection;
