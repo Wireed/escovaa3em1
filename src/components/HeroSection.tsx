@@ -66,7 +66,7 @@ const HeroSection = () => {
                   -53% OFF
                 </span>
               </div>
-              <p className="text-muted-foreground text-sm">ou 12x de R$ 11,67 sem juros</p>
+              <p className="text-muted-foreground text-sm">ou 12x de R$ 14,30 sem juros</p>
 
               <motion.a
                 href={CHECKOUT_URL}
